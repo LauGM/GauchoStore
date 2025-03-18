@@ -1,0 +1,95 @@
+[{
+  "plants": [
+    {
+      "id": "p1",
+      "name": "Albahaca",
+      "price": 15.99,
+      "originalPrice": 19.99,
+      "image": "https://images.unsplash.com/photo-1618375569909-3c8616cf7733?w=400",
+      "category": "plants",
+      "description": "Planta aromática perfecta para cocina",
+      "isPromo": true
+    },
+    {
+      "id": "p2",
+      "name": "Lavanda",
+      "price": 18.99,
+      "image": "https://images.unsplash.com/photo-1534710961216-75c88202f43e?w=400",
+      "category": "plants",
+      "description": "Planta aromática con propiedades relajantes"
+    }
+  ],
+  "seeds": [
+    {
+      "id": "s1",
+      "name": "Semillas de Tomate",
+      "price": 5.99,
+      "originalPrice": 8.99,
+      "image": "https://images.unsplash.com/photo-1582515073490-39981397c445?w=400",
+      "category": "seeds",
+      "description": "Semillas orgánicas de tomate cherry",
+      "isPromo": true
+    },
+    {
+      "id": "s2",
+      "name": "Semillas de Zanahoria",
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1445282768818-728615cc910a?w=400",
+      "category": "seeds",
+      "description": "Semillas orgánicas de zanahoria"
+    }
+  ],
+  "supplies": [
+    {
+      "id": "i1",
+      "name": "Sustrato Orgánico",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1588730608475-9d2a6b8b3567?w=400",
+      "category": "supplies",
+      "description": "Sustrato especial para huerta urbana"
+    },
+    {
+      "id": "i2",
+      "name": "Compost",
+      "price": 9.99,
+      "originalPrice": 14.99,
+      "image": "https://images.unsplash.com/photo-1591955506264-3f5a6834570a?w=400",
+      "category": "supplies",
+      "description": "Compost orgánico para enriquecer la tierra",
+      "isPromo": true
+    }
+  ],
+  "kits": [
+    {
+      "id": "k1",
+      "name": "Kit Huerta Inicial",
+      "price": 29.99,
+      "originalPrice": 39.99,
+      "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=400",
+      "category": "kits",
+      "description": "Todo lo necesario para comenzar tu huerta",
+      "isPromo": true,
+      "includes": [
+        { "id": "p1", "name": "Albahaca", "quantity": 1 },
+        { "id": "s1", "name": "Semillas de Tomate", "quantity": 2 },
+        { "id": "i1", "name": "Sustrato Orgánico", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "k2",
+      "name": "Kit Aromáticas Premium",
+      "price": 45.99,
+      "originalPrice": 59.99,
+      "image": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=400",
+      "category": "kits",
+      "description": "Colección de plantas aromáticas y todo lo necesario para su cultivo",
+      "isPromo": true,
+      "includes": [
+        { "id": "p1", "name": "Albahaca", "quantity": 1 },
+        { "id": "p2", "name": "Lavanda", "quantity": 1 },
+        { "id": "i1", "name": "Sustrato Orgánico", "quantity": 2 },
+        { "id": "i2", "name": "Compost", "quantity": 1 }
+      ]
+    }
+  ]
+}]
