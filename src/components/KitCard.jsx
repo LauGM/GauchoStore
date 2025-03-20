@@ -5,7 +5,7 @@ export default function KitCard({ kit }) {
   const discount = kit.isPromo ? Math.round(((kit.originalPrice - kit.price) / kit.originalPrice) * 100) : 0;
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden relative border-2 border-purple-500">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between relative border-2 border-purple-500 h-180 overflow-y-auto">
       {kit.isPromo && (
         <div className="absolute top-0 right-0 bg-purple-500 text-white px-3 py-1 rounded-bl-lg z-10">
           {discount}% OFF
@@ -14,7 +14,7 @@ export default function KitCard({ kit }) {
       <img 
         src={kit.image} 
         alt={kit.name}
-        className="w-full h-48 object-cover"
+        className="w-full h-full max-h-72 object-cover"
       />
       <div className="p-4">
         <h3 className="text-lg font-semibold">{kit.name}</h3>

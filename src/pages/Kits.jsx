@@ -20,7 +20,7 @@ export default function Kits() {
         <p className="text-gray-600">Packs especialmente diseñados para comenzar tu huerta urbana</p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {productsData.map(kit => (
           <KitCard key={kit.id} kit={kit} />
         ))}
